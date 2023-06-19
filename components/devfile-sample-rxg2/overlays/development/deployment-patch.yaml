@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rxg2
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/bgriggs-tenant/my-app/devfile-sample-rxg2@sha256:039c74f5409ad2a24faea133d610daaa145fb3e35aa2ed5ca5dec67d66c445fb
+        name: my-nodejs
+        resources: {}
+status: {}
