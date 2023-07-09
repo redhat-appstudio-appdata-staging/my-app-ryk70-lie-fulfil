@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-rxg2
     app.kubernetes.io/part-of: my-app
-  name: devfile-sample-rxg2uimv
+  name: devfile-sample-rxg21u80
 spec:
   path: /
   port:
